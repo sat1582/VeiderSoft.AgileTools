@@ -8,12 +8,17 @@ namespace Project.Client.SHAGenerator.Controllers
     {
         public ActionResult Start()
         {
-            return Shell(new StartViewModel(), "Agil Development Tools");
+            return Shell(new StartViewModel(), "Agile Development Tools");
         }
 
         public ActionResult Shagen()
         {
             return ViewModal("ShaGenerator",new ShaGeneratorViewModel());
+        }
+
+        public ActionResult Passgen()
+        {
+            return ViewModal("PasswordGenerator", new PasswordGeneratorViewModel());
         }
 
         public ActionResult Bing()

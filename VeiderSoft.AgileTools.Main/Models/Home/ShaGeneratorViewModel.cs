@@ -193,7 +193,7 @@ namespace Project.Client.SHAGenerator.Models.Home
 
             return HexStringFromBytes(hashBytes);
         }
-        public static string HexStringFromBytes(byte[] bytes)
+        private static string HexStringFromBytes(byte[] bytes)
         {
             var sb = new StringBuilder();
 

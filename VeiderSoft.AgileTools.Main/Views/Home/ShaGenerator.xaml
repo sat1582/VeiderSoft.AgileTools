@@ -4,21 +4,20 @@
            Title="SHA-1 Generator">
 
     <Grid controls:GridEx.RowHeights="Auto,*">
-        <mvvm:View Style="{DynamicResource CODE.Framework-Layout-EditFormLayout}" 
-            Grid.Row="0" mvvm:View.WidthEx="600">
+        <mvvm:View Style="{DynamicResource CODE.Framework-Layout-EditFormLayout}" Grid.Row="0" mvvm:View.WidthEx="600">
             <Label>Messsage</Label>
             <TextBox Text="{Binding Input, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" mvvm:View.HasDefaultFocus="True" 
-                MaxLength="1024" Width="1000">
+                MaxLength="1024" mvvm:View.WidthEx="100">
                 <TextBox.InputBindings>
                     <KeyBinding Command="{Binding HashCommand}" Key="Enter" />
                 </TextBox.InputBindings>
             </TextBox>
 
             <Label>Tag</Label>
-            <TextBox Width="100" Text="{Binding OutputReducido, Mode=OneWay}" />
+            <TextBox mvvm:View.WidthEx="10" Text="{Binding OutputReducido, Mode=OneWay}" />
 
             <Label mvvm:View.GroupBreak="True">Search</Label>
-            <TextBox mvvm:View.WidthEx="20" />
+            <TextBox mvvm:View.WidthEx="50" />
         </mvvm:View>
 
         <ListBox ItemsSource="{Binding Messages}" Style="{DynamicResource ListBox-Messages}"

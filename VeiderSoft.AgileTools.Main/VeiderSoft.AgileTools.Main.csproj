@@ -142,6 +142,7 @@
     <Compile Include="Clases\StandardDataList.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\Home\BingViewModel.cs" />
+    <Compile Include="Models\Home\PasswordGeneratorViewModel.cs" />
     <Compile Include="Models\Home\ShaGeneratorViewModel.cs" />
     <Compile Include="Models\Home\StartViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -291,6 +292,50 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\Home\Bing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Battleship.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Default.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Geek.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Layout.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Metro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Vapor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Wildcat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.Workplace.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>PasswordGenerator.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\PasswordGenerator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
