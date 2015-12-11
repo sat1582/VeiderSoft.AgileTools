@@ -4,6 +4,7 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="Workplace-Colors.xaml"/>
         <ResourceDictionary Source="Workplace-Fonts.xaml"/>
+        <ResourceDictionary Source="Workplace-Shell.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
 </ResourceDictionary>

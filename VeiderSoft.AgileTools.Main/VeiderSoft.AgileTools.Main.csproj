@@ -101,7 +101,8 @@
     <Reference Include="CODE.Framework.Wpf.Theme.Wildcat">
       <HintPath>..\_ExternalComponents\CODEFramework\CODE.Framework.Wpf.Theme.Wildcat.dll</HintPath>
     </Reference>
-    <Reference Include="CODE.Framework.Wpf.Theme.Workplace">
+    <Reference Include="CODE.Framework.Wpf.Theme.Workplace, Version=4.0.50402.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\_ExternalComponents\CODEFramework\CODE.Framework.Wpf.Theme.Workplace.dll</HintPath>
     </Reference>
     <Reference Include="SD.LLBLGen.Pro.DQE.SqlServer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL">
@@ -140,6 +141,7 @@
     <Compile Include="Clases\SimpleViewModel.cs" />
     <Compile Include="Clases\StandardDataList.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Models\Home\BingViewModel.cs" />
     <Compile Include="Models\Home\ShaGeneratorViewModel.cs" />
     <Compile Include="Models\Home\StartViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -240,7 +242,55 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Themes\Workplace\Workplace-Shell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Themes\Workplace\Workplace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Home\Bing.Battleship.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Default.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Geek.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Layout.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Metro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Vapor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Wildcat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.Workplace.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>Bing.xaml</DependentUpon>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Home\Bing.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

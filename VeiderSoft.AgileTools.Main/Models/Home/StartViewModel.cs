@@ -23,6 +23,8 @@ namespace Project.Client.SHAGenerator.Models.Home
             Actions.Add(new ViewAction("Menu Item #3", execute: (a, o) => Controller.Message("Menu Item #3 clicked!")));
 
             Actions.Add(new ViewAction("SHA-1 Gen", category: "Tools", execute: (a, o) => Controller.Action("Home", "Shagen"), brushResourceKey: "CODE.Framework-Icon-Comment"));
+
+            Controller.Action("Home", "Bing");
         }
     }
 }
